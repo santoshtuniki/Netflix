@@ -1,0 +1,523 @@
+
+body {
+	margin: 0;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #fff;
+}
+
+#borderDiv {
+	height: 8px;
+	width: 100%;
+	background-color: #222222f2;
+}
+
+/*	***************************** Header section **************************************	*/
+
+						/* Gives "Image" to background */
+#header {
+	height: 650px;
+	width: 100%;
+	border: 0;
+	background-image: url(./images/Netflix.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Gives linear-gradient to background-image*/
+#header-top {
+	height: 650px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,.4);
+	background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+	/* border: 2px solid blue; */
+}
+
+						/* Gives "header bar" to header section*/
+#navbar {
+	height: 60px;
+	width: 92%;
+	margin: 8px 4%;
+	padding-top: 10px;
+	/* border: 2px solid green; */
+}
+
+/* Adds logo in header bar*/
+.logo {
+	height: 45px;
+	width: 158px;
+}
+
+/* Adds language in header bar*/
+#lang {
+	padding: 5px;
+	margin: 12px 30px 3px auto;
+	border: 1px solid white;
+}
+
+#lang > span {
+	color: white;
+	font-size: 13px;
+}
+
+#lang > select {
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	border: none;
+}
+
+/* Adds SignIn in header bar*/
+#signIn {
+	color: #fff;
+	margin: 12px 0 4px;
+	padding: 4px 17px;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #e50914;
+}
+
+						/* Gives "story" to header section*/
+#story {
+	width: 74%;
+	color: #fff;
+	max-width: 950px;
+	padding: 75px 0;
+	margin-left: 13%;
+	text-align: center;
+	position: absolute;
+	top: 140px;
+	/* border: 2px solid blue; */
+}
+
+/* Adds headings to story*/
+#story-heading {
+	width: 66%;
+	margin-left: 17%;
+	/* border: 2px solid green; */
+}
+
+.story-title {
+	font-size: 52px;
+	line-height: 1.1;
+	margin-bottom: 25px;
+}
+
+.story-subtitle {
+	font-size: 26px;
+}
+
+/* Adds form to story*/
+#form {
+	width: 80%;
+	margin: 30px 10% 0;
+	/* border: 2px solid pink; */
+}
+
+.form-title {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+/* Adds email to form*/
+.email-body {
+	height: 65px;
+	width: 60%;
+	color: #000;
+	padding: 10px;
+	font-size: 16px;
+	max-width: 450px;
+	/* max-width: 500px; */
+	margin-left: 4%;
+	text-align: left;
+	border: 1px solid #8c8c8c;
+	border-radius: 2px 0 0 2px;	
+}
+
+/* Adds button to form*/
+.btn-red {
+	height: 65px;
+	width: 32%;
+	padding: 10px;
+	color: #fff;
+	border: 0;
+	min-width: 74px;
+	text-align: center;
+	margin-top: 0 0 10px;
+	border-radius: 0 2px 2px 0;
+	background-color: #e50914;
+	background-image: linear-gradient(180deg,#e50914,#db0510);
+	box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+
+.btn-text {
+	font-size: 28px;
+	margin-right: 10px;
+}
+
+.btn-icon {
+	font-size: 30px;
+}
+
+/*	***************************** Animation Card section **************************************	*/
+
+#animation-card-container {
+	height: 500px;
+	color: white;
+	background-color: #000;
+	/* border: 2px solid red; */
+}
+
+						/* Gives "animation-card" to Animation Card section*/
+#animation-card {
+	width: 52%;
+	margin: 100px 6%;
+	margin-right: 0;
+	padding: 50px 20px 50px 0;
+	/* border: 2px solid blue; */
+}
+
+						/* Gives "animation-video" to Animation Card section*/
+#animation-video {
+	width: 47%;
+	margin: 20px 5% 60px 0;
+	position: relative;
+	/* border: 2px solid green; */
+}
+
+#animation-video > img {
+	position: relative;
+	z-index: 2;
+}
+
+/* Adds "video" to animation-video*/
+.video {
+	height: 100%;
+	left: 54%;
+	max-height: 62%;
+	max-width: 78%;
+	position: absolute;
+	top: 55%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	/* border: 2px solid yellow; */
+}
+
+/*	***************************** Animation Download section **************************************	*/
+
+#animation-card-container {
+	height: 500px;
+	color: white;
+	background-color: #000;
+	/* border: 2px solid red; */
+}
+
+						/* Gives "animation-download" to Animation Download section*/
+#animation-download {
+	width: 40%;
+	margin: 30px 6% 60px 10px;
+	position: relative;
+	background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	/* border: 2px solid green; */
+}
+
+/* Adds "card-download" to animation-download*/
+#card-download {
+	height: 90px;
+	width: 66%;
+	margin-left: 18%;
+	position: absolute;
+	bottom: 40px;
+	border-radius: 10px;
+	padding: 10px;
+	align-items: center;
+	background: #000;
+	box-shadow: 0 0 3em 0 #000;
+	border: 2px solid hsla(0,0%,100%,.25);
+}
+
+/* Adds "card-image" to card-download*/
+.card-image {
+	height: 66px;
+	width: 20%;
+	max-width: 54px;
+	margin-right: 20px;
+}
+
+.card-image > img {
+	height: 100%;
+	width: 100%;
+}
+
+/* Adds "card-text" to card-download*/
+.card-text {
+	width: 60%;
+	border-right: 0;
+	/* border: 2px solid yellow; */
+}
+
+.card-title {
+	display: block;
+	font-weight: 700;
+	color: white;
+	font-size: 17px;
+	line-height: 0.8;
+}
+
+.card-subtitle {
+	display: block;
+	color: blue;
+	font-size: 16px;
+}
+
+/* Adds "download" to card-download*/
+.download {
+	height: 66px;
+	width: 20%;
+	border-left: 0;
+	background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+	background-size: 100%;
+	/* border: 2px solid orange; */
+}
+
+						/* Gives "animation-text" to Animation Download section*/
+#animation-text {
+	width: 50%;
+	margin: 80px 5%;
+	margin-left: 0;
+	padding: 50px 0 50px 65px;
+	/* border: 2px solid blue; */
+}
+
+/*	***************************** Animation watchOnDevice section **************************************	*/
+
+						/* Gives "animation-watchOnDevice" to Animation Card section*/
+#animation-watchOnDevice {
+	width: 46%;
+	margin: 20px 6% 60px 0;
+	position: relative;
+	/* border: 2px solid green; */
+}
+
+#animation-watchOnDevice > img {
+	position: relative;
+	z-index: 2;
+}
+
+/* Adds "video" to #animation-watchOnDevice */
+.watchOnDevice-video {
+	height: 100%;
+	left: 53%;
+	max-height: 51%;
+	max-width: 67%;
+	position: absolute;
+	top: 38%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	/* border: 2px solid yellow; */
+}
+
+/*	***************************** Animation Children section **************************************	*/
+
+						/* Gives "anime-children" to Animation Children section*/
+#animation-children {
+	width: 40%;
+	margin: 30px 0 60px 6%;
+	position: relative;
+	/* border: 2px solid green; */
+}
+
+#animation-children > img {
+	height: 100%;
+	width: 100%;
+}
+
+/*	***************************** Animation FAQ section **************************************	*/
+#animation-faq {
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 70px 5%;
+	background-color: #000;
+	/* border: 2px solid red; */
+}
+
+						/* Gives "card-FAQ" to animation-FAQ*/
+#card-faq {
+	width: 90%;
+	text-align: center;
+	/* border: 2px solid blue; */
+}
+
+#card-faq > h1 {
+	font-size: 54px;
+}
+
+.faq-list {
+	width: 72%;
+	padding: 0;
+	margin: 50px 14%;
+	/* border: 2px solid green; */
+}
+
+.faq-list-item {
+	list-style-type: none;
+	margin: 0 0 8px;
+	display: block;
+}
+
+						/* Gives "faq" to card-FAQ*/
+.faq {
+	border: 0;
+	width: 100%;
+	color: #fff;
+	text-align: left;
+	font-size: 26px;
+	font-weight: 400;
+	margin-bottom: 2px;
+	padding: 20px 30px;
+	position: relative;
+	background-color: #222222f2;
+}
+
+.faq > span {
+	position: absolute;
+	right: 15px;
+}
+
+						/* Gives "answer" to card-FAQ*/
+.answer {
+	border: 0;
+	width: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.3;
+	margin-bottom: 1px;
+	padding: 20px 46px 20px 30px;
+	position: relative;
+	background-color: #222222f2;
+}
+
+.faq-list-item > div {
+	display: none;
+}
+
+/*	***************************** Footer section **************************************	*/
+#animation-footer {
+	height: 400px;
+	color: #737373;
+	background-color: #000;
+	/* border: 2px solid red; */
+}
+
+						/* Gives "card-footer" to animation-footer*/
+#card-footer {
+	width: 80%;
+	padding: 70px 6% 0 5%;
+	margin: 0 8% 50px;
+	/* border: 2px solid blue; */
+}
+
+						/* Gives "footer-top" to card-footer*/
+.footer-link {
+	text-decoration: none;
+	color: #737373;
+}
+
+.footer-link:hover {
+	color: #737373;
+}
+
+						/* Gives "footer-body" to card-footer*/
+#footer-body {
+	width: 100%;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.footer-item {
+	box-sizing: border-box;
+	width: 25%;
+	min-width: 100px;
+	max-width: 213px;
+	display: inline-block;
+	margin-left: 0;
+	margin-bottom: 16px;
+	padding: 0 12px 0 0;
+	list-style: none;
+	/* border: 2px solid rgb(88, 88, 255); */
+}
+
+						/* Gives "language" to card-footer*/
+#footer-lang {
+	height: 52px;
+	width:100%;
+	padding:0;
+	padding-right: 80%;
+	/* border: 2px solid rgb(88, 88, 255);  */
+}
+
+#language {
+	height: 52px;
+	color: #737373;
+	font-size: 20px;
+	padding: 10px 15px;
+	border: 1px solid #737373;
+}
+
+#language> select{
+	border: none;
+	color: #999;
+	background-color: #000;
+}
+
+#language > span {
+	color: #999;
+	font-size: 20px;
+	margin-right: 8px;
+}
+
+						/* Gives "footer-country" to card-footer*/
+.footer-country {
+	font-size: 14px;
+	margin-top: 24px;
+}
+
+
+
+/*	***************************** Media Query section **************************************	*/
+
+/* lg */
+@media screen and (max-width:1200px) {
+	
+}
+
+/* md */
+@media screen and (max-width:992px) {
+	
+}
+
+/* sm */
+@media screen and (max-width:768px) {
+	
+}
+
+/* xs */
+@media screen and (max-width:576px) {
+
+	
+}
