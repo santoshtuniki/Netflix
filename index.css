@@ -82,7 +82,7 @@ body {
 /* Adds SignIn in header bar*/
 #signIn {
 	color: #fff;
-	margin: 12px 0 4px;
+	margin: 5px 30px 10px 0;
 	padding: 4px 17px;
 	font-weight: 400;
 	text-align: center;
@@ -728,7 +728,7 @@ body {
 	}
 
 	#signIn {
-		margin: 5px 40px 10px auto;
+		margin: 5px 40px 10px 0;
 		padding: 4px 17px;
 	}
 
@@ -763,43 +763,10 @@ body {
 		width: 80%;
 		margin: 0 10% 20px;
 	}
-}
 
-@media screen and (max-width:550px) {
-	#navbar {
+	#card-footer {
 		width: 100%;
-		margin: 20px 10px;
-		padding-top: 10px;
-	}
-
-	#lang {
-		padding: 5px;
-		margin: 5px 30px 10px auto;
-		border: 1px solid white;
-	}
-
-	#signIn {
-		margin: 5px 30px 10px auto;
-		padding: 4px 17px;
-	}
-
-	.poster-title {
-		width: 90%;
-		margin-left: 5%;
-		font-size: 32px;
-	}
-	
-	.poster-subtitle {
-		width: 90%;
-		margin-left: 5%;
-		font-size: 24px;
-	}
-
-	.story-title {
-		font-size: 28px;
-	}
-	
-	.story-subtitle {
-		font-size: 16px;
+		padding: 50px 5% 30px 8%;
+		margin: 0;
 	}
 }
