@@ -15,6 +15,7 @@ body {
 .borderDiv {
 	height: 8px;
 	width: 100%;
+	min-width: 450px;
 	background-color: #222222f2;
 }
 
@@ -24,6 +25,7 @@ body {
 #header {
 	min-height: 700px;
 	width: 100%;
+	min-width: 450px;
 	border: 0;
 	background-image: url(./images/Netflix.jpg);
 	background-repeat: no-repeat;
@@ -34,6 +36,7 @@ body {
 #header-top {
 	min-height: 700px;
 	width: 100%;
+	min-width: 450px;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -61,7 +64,7 @@ body {
 /* Adds language in header bar*/
 #lang {
 	padding: 5px;
-	margin: 12px 30px 3px auto;
+	margin: 5px 30px 10px auto;
 	border: 1px solid white;
 }
 
@@ -192,6 +195,7 @@ body {
 
 .animation-card-container, .animation-card-container-2 {
 	max-height: 460px;
+	min-width: 450px;
 	display: flex;
 	flex-direction: row;
 	color: white;
@@ -379,6 +383,7 @@ body {
 /*	***************************** Animation FAQ section **************************************	*/
 #animation-faq {
 	width: 100%;
+	min-width: 450px;
 	color: white;
 	text-align: center;
 	padding: 70px 5%;
@@ -454,6 +459,7 @@ body {
 /*	***************************** Footer section **************************************	*/
 #animation-footer {
 	color: #737373;
+	min-width: 450px;
 	background-color: #000;
 	/* border: 2px solid red; */
 }
@@ -709,6 +715,23 @@ body {
 }
 
 @media screen and (max-width:550px) {
+	#navbar {
+		width: 100%;
+		margin: 20px 10px;
+		padding-top: 10px;
+	}
+
+	#lang {
+		padding: 5px;
+		margin: 5px 40px 10px auto;
+		border: 1px solid white;
+	}
+
+	#signIn {
+		margin: 5px 40px 10px auto;
+		padding: 4px 17px;
+	}
+
 	.poster-title {
 		width: 90%;
 		margin-left: 5%;
@@ -739,5 +762,44 @@ body {
 		height: 300px;
 		width: 80%;
 		margin: 0 10% 20px;
+	}
+}
+
+@media screen and (max-width:550px) {
+	#navbar {
+		width: 100%;
+		margin: 20px 10px;
+		padding-top: 10px;
+	}
+
+	#lang {
+		padding: 5px;
+		margin: 5px 30px 10px auto;
+		border: 1px solid white;
+	}
+
+	#signIn {
+		margin: 5px 30px 10px auto;
+		padding: 4px 17px;
+	}
+
+	.poster-title {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 32px;
+	}
+	
+	.poster-subtitle {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 24px;
+	}
+
+	.story-title {
+		font-size: 28px;
+	}
+	
+	.story-subtitle {
+		font-size: 16px;
 	}
 }
