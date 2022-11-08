@@ -47,7 +47,7 @@ body {
 #navbar {
 	height: 60px;
 	width: 92%;
-	margin: 8px 4%;
+	margin: 20px 4%;
 	padding-top: 10px;
 	/* border: 2px solid green; */
 }
@@ -557,8 +557,6 @@ body {
 	}
 }
 
-
-/* md */
 @media screen and (max-width:952px) {
 	.animation-card-container {
 		max-height: 600px;
@@ -667,7 +665,6 @@ body {
 	
 }
 
-/* sm */
 @media screen and (max-width:768px) {
 	.poster-title {
 		width: 100%;
@@ -711,7 +708,6 @@ body {
 
 }
 
-/* xs */
 @media screen and (max-width:550px) {
 	.poster-title {
 		width: 90%;
